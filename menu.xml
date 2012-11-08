@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+
+<menu id="apps-application-menu" label="app">
+  <item label="vlc">
+    <action name="Execute">
+      <command>vlc</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="gimp">
+    <action name="Execute">
+      <command>gimp</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="inkscape">
+    <action name="Execute">
+      <command>inkscape</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="wicd">
+    <action name="Execute">
+      <command>wicd-gtk</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="system-menu" label="System">
+  <item label="Openbox Configuration Manager">
+    <action name="Execute">
+      <command>obconf</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Reconfigure Openbox">
+    <action name="Reconfigure" />
+  </item>
+</menu>
+
+<menu id="root-menu" label="Openbox 3">
+  <item label="xterm">
+    <action name="Execute">
+        <command>xterm</command>
+    </action>
+  </item>
+  <item label="gterm">
+    <action name="Execute">
+      <command>gnome-terminal</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="vim">
+    <action name="Execute">
+      <command>xterm -e "vim"</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>vim</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="gvim">
+    <action name="Execute">
+      <command>gvim</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>GVim</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="chromium">
+    <action name="Execute">
+      <command>chromium</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>Chromium</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="pidgin">
+    <action name="Execute">
+      <command>pidgin</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <menu id="apps-application-menu"/>
+  <separator label="System" />
+  <menu id="system-menu"/>
+  <separator />
+  <item label="Log Out">
+    <action name="Exit">
+      <prompt>yes</prompt>
+    </action>
+  </item>
+</menu>
+
+</openbox_menu>
