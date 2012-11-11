@@ -16,7 +16,5 @@
 #
 #xfce-mcs-manager &
 
-$HOME/.screenlayout/default.sh # set right monitors
-
-pidgin
-
+nitrogen --restore &
+pidgin &
