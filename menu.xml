@@ -98,7 +98,7 @@
   <separator />
   <item label="steam">
     <action name="Execute">
-      <command>/usr/bin/steamhack</command>
+      <command>/usr/bin/steam</command>
     </action>
   </item>
   <item label="chromium">
