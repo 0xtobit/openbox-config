@@ -3,7 +3,7 @@
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 
 
-<menu id="apps-application-menu" label="app">
+<menu id="apps-application-menu" label="applications">
   <item label="mumble">
     <action name="Execute">
       <command>mumble</command>
@@ -12,6 +12,14 @@
   <item label="vlc">
     <action name="Execute">
       <command>vlc</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="deadbeef">
+    <action name="Execute">
+      <command>deadbeef</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
