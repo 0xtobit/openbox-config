@@ -354,9 +354,6 @@
     <!-- Set this to TRUE to move the mouse pointer across the desktop when
        switching due to hitting the edge of the screen -->
     <context name="Frame">
-      <mousebind button="Left" action="Click">
-        <action name="Focus"/>
-      </mousebind>
       <mousebind button="A-Left" action="Press">
         <action name="Focus"/>
         <action name="Raise"/>
@@ -513,7 +510,6 @@
     <context name="Client">
       <mousebind button="Left" action="Press">
         <action name="Focus"/>
-        <action name="Raise"/>
       </mousebind>
       <mousebind button="Middle" action="Press">
         <action name="Focus"/>
