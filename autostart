@@ -16,5 +16,7 @@
 #
 #xfce-mcs-manager &
 
+asus-kbd-backlight off
+asus-screen-brightness 1500
 nitrogen --restore &
-pidgin &
+conky &
