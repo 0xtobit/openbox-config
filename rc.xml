@@ -327,7 +327,7 @@
     <!-- Keybindings for running applications -->
     <keybind key="C-S-t">
       <action name="Execute">
-        <command>xterm -geometry 83x70 -e tmux -2</command>
+        <command>xterm -geometry 83x70 -e "stty erase ^?; tmux -2"</command>
       </action>
     </keybind>
     <keybind key="C-S-r">
