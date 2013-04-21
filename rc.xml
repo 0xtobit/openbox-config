@@ -340,6 +340,57 @@
         <command>chromium</command>
       </action>
     </keybind>
+    <!-- Keybindings for laptop special Fn+F\d keys -->
+    <keybind key="XF86KbdBrightnessDown">
+      <action name="Execute">
+        <command>asus-kbd-backlight down</command>
+      </action>
+    </keybind>
+    <keybind key="XF86KbdBrightnessUp">
+      <action name="Execute">
+        <command>asus-kbd-backlight up</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioMute">
+      <action name="Execute">
+        <command>amixer set Master toggle</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioLowerVolume">
+      <action name="Execute">
+        <command>amixer set Master 5%- unmute</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioRaiseVolume">
+      <action name="Execute">
+        <command>amixer set Master 5%+ unmute</command>
+      </action>
+    </keybind>
+    <keybind key="XF86ToughpadToggle">
+      <action name="Execute">
+        <command>echo foo</command> <!-- TODO figure out cmd -->
+      </action>
+    </keybind>
+    <keybind key="XF86Display">
+      <action name="Execute">
+        <command>echo foo</command> <!-- TODO figure out cmd -->
+      </action>
+    </keybind>
+    <keybind key="XF86Launch1">
+      <action name="Execute">
+        <command>echo foo</command> <!-- TODO figure out cmd -->
+      </action>
+    </keybind>
+    <keybind key="XF86WebCam">
+      <action name="Execute">
+        <command>echo foo</command> <!-- TODO figure out cmd -->
+      </action>
+    </keybind>
+    <keybind key="XF86Launch6">
+      <action name="Execute">
+        <command>echo foo</command> <!-- TODO figure out cmd -->
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
