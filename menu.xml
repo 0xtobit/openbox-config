@@ -17,17 +17,17 @@
       </startupnotify>
     </action>
   </item>
-  <item label="deadbeef">
+  <item label="gimp">
     <action name="Execute">
-      <command>deadbeef</command>
+      <command>gimp</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
     </action>
   </item>
-  <item label="gimp">
+  <item label="GURPS character sheet">
     <action name="Execute">
-      <command>gimp</command>
+      <command>gcs</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
@@ -51,21 +51,21 @@
   </item>
 </menu>
 
-<menu id="system-menu" label="System">
-  <item label="Openbox Configuration Manager">
+<menu id="system-menu" label="system">
+  <item label="openbox configuration manager">
     <action name="Execute">
       <command>obconf</command>
       <startupnotify><enabled>yes</enabled></startupnotify>
     </action>
   </item>
-  <item label="Openbox Keybind Manager">
+  <item label="openbox keybind manager">
     <action name="Execute">
       <command>obkey</command>
       <startupnotify><enabled>yes</enabled></startupnotify>
     </action>
   </item>
   <separator />
-  <item label="Reconfigure Openbox">
+  <item label="reconfigure openbox">
     <action name="Reconfigure" />
   </item>
 </menu>
@@ -74,24 +74,6 @@
   <item label="xterm">
     <action name="Execute">
         <command>xterm</command>
-    </action>
-  </item>
-  <item label="gterm">
-    <action name="Execute">
-      <command>gnome-terminal</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
-  <separator />
-  <item label="vim">
-    <action name="Execute">
-      <command>xterm -e "vim"</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-        <wmclass>vim</wmclass>
-      </startupnotify>
     </action>
   </item>
   <item label="gvim">
@@ -104,6 +86,14 @@
     </action>
   </item>
   <separator />
+  <item label="deadbeef">
+    <action name="Execute">
+      <command>deadbeef</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
   <item label="steam">
     <action name="Execute">
       <command>/usr/bin/steam</command>
@@ -127,10 +117,10 @@
     </action>
   </item>
   <menu id="apps-application-menu"/>
-  <separator label="System" />
+  <separator label="system" />
   <menu id="system-menu"/>
   <separator />
-  <item label="Log Out">
+  <item label="log out">
     <action name="Exit">
       <prompt>yes</prompt>
     </action>
