@@ -86,9 +86,9 @@
     </action>
   </item>
   <separator />
-  <item label="deadbeef">
+  <item label="audacious">
     <action name="Execute">
-      <command>deadbeef</command>
+      <command>audacious</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
