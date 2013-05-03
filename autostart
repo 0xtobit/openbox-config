@@ -17,3 +17,4 @@
 #xfce-mcs-manager &
 
 nitrogen --restore &
+$HOME/.conky/loadconky.sh
