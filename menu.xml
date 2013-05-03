@@ -25,7 +25,7 @@
       </startupnotify>
     </action>
   </item>
-  <item label="GURPS character sheet">
+  <item label="gcs">
     <action name="Execute">
       <command>gcs</command>
       <startupnotify>
