@@ -17,4 +17,6 @@
 #xfce-mcs-manager &
 
 nitrogen --restore &
+asus-kbd-backlight off
+asus-screen-brightness 1200
 $HOME/.conky/loadconky.sh
