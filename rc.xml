@@ -340,6 +340,11 @@
         <command>chromium</command>
       </action>
     </keybind>
+    <keybind key="C-S-g">
+      <action name="Execute">
+        <command>gmrun</command>
+      </action>
+    </keybind>
     <!-- Keybindings for laptop special Fn+F\d keys -->
     <keybind key="XF86KbdBrightnessDown">
       <action name="Execute">
