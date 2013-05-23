@@ -356,16 +356,6 @@
         <command>asus-kbd-backlight up</command>
       </action>
     </keybind>
-    <keybind key="C-F5">
-      <action name="Execute">
-        <command>asus-screen-brightness down</command>
-      </action>
-    </keybind>
-    <keybind key="C-F6">
-      <action name="Execute">
-        <command>asus-screen-brightness up</command>
-      </action>
-    </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
         <command>amixer set Master toggle</command>
