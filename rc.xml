@@ -256,7 +256,7 @@
         <follow>no</follow>
       </action>
     </keybind>
-    <keybind key="W-d">
+    <keybind key="W-Tab">
       <action name="ToggleShowDesktop"/>
     </keybind>
     <!-- Keybindings for windows -->
