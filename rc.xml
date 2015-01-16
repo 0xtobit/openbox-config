@@ -345,6 +345,37 @@
         <command>gmrun</command>
       </action>
     </keybind>
+    <!-- Music binds -->
+    <keybind key="W-0x55"> <!-- numpad 6 -->
+      <action name="Execute">
+        <command>mpc next</command>
+      </action>
+    </keybind>
+    <keybind key="W-0x53"> <!-- numpad 4 -->
+      <action name="Execute">
+        <command>mpc prev</command>
+      </action>
+    </keybind>
+    <keybind key="W-0x54"> <!-- numpad 5 -->
+      <action name="Execute">
+        <command>mpc toggle</command>
+      </action>
+    </keybind>
+    <keybind key="W-0x50"> <!-- numpad + -->
+      <action name="Execute">
+        <command>amixer set Master 5%+</command>
+      </action>
+    </keybind>
+    <keybind key="W-0x58"> <!-- numpad - -->
+      <action name="Execute">
+        <command>amixer set Master 5%-</command>
+      </action>
+    </keybind>
+    <keybind key="W-0x3f">
+      <action name="Execute">
+        <command>amixer set Master toggle</command>
+      </action>
+    </keybind>
     <!-- Keybindings for laptop special Fn+F\d keys -->
     <keybind key="XF86KbdBrightnessDown">
       <action name="Execute">
